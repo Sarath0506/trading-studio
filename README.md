@@ -1,58 +1,29 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# Trading Studio App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+Trading Studio is a trading strategy and portfolio management platform built using React, Redux, and TailwindCSS.
 
-Currently, two official plugins are available:
+### 🔹 Features
+- 📊 Strategy Builder – Create and save trading strategies
+- 💼 Portfolio Management – Manage and configure portfolios
+- 🖥️ Trading Simulator – Simulate strategies
+- 💰 Pricing Page – View pricing plans
+- 🔔 Alert Subscription
+- 🔑 Login/Logout System using Redux
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Setup Instructions
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
+- Node.js (v16+)
+- npm or yarn
+- Git
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Installation
+```bash
+git clone https://github.com/Sarath0506/trading-studio.git
+cd trading-studio
+npm install
+npm run dev
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
-=======
-# trading-studio
->>>>>>> 5104e1194d2cc404f64dd1a2575fa6e0235c9818
