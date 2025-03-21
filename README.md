@@ -13,6 +13,13 @@ Trading Studio is a trading strategy and portfolio management platform built usi
 
 ---
 
+Assumptions
+1) By clicking login button to access dashboard features like Strategy, Portfolio, Simulator, and Screener.
+2) Authentication is handled locally using Redux (no backend integration).
+3) Strategies and configurations are stored in Redux, not in a database.
+4) Pricing and feature data are hardcoded inside a local data folder.
+5) UI is built with TailwindCSS, and is fully responsive for desktop and mobile.
+
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
